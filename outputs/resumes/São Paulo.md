@@ -7,10 +7,10 @@
     <table>
         <h5>ÚLTIMOS JOGOS</h5>
         <th>
-        Casa
+        Adversário
         </th>
         <th>
-        Fora
+        Lado
         </th>
         <th>
         Placar
@@ -22,9 +22,9 @@
         Estádio
         </th>
         <tr>
-            <td><a href="../games/11652579.md">São Paulo</a>
+            <td><a href="../games/11652579.md">Grêmio</a>
             </td>
-            <td>Grêmio
+            <td>Casa
             </td>
             <td>3 x 0
             </td>
@@ -36,7 +36,7 @@
         </tr><tr>
             <td><a href="../games/11067464.md">Palmeiras</a>
             </td>
-            <td>São Paulo
+            <td>Fora
             </td>
             <td>5 x 0
             </td>
@@ -48,7 +48,7 @@
         </tr><tr>
             <td><a href="../games/11067503.md">Athletico</a>
             </td>
-            <td>São Paulo
+            <td>Fora
             </td>
             <td>1 x 1
             </td>
@@ -58,9 +58,9 @@
             <td>Ligga Arena
             </td>
         </tr><tr>
-            <td><a href="../games/11067295.md">São Paulo</a>
+            <td><a href="../games/11067295.md">Cruzeiro</a>
             </td>
-            <td>Cruzeiro
+            <td>Casa
             </td>
             <td>1 x 0
             </td>
@@ -72,7 +72,7 @@
         </tr><tr>
             <td><a href="../games/11067392.md">Fluminense</a>
             </td>
-            <td>São Paulo
+            <td>Fora
             </td>
             <td>None x None
             </td>
@@ -82,9 +82,9 @@
             <td>Estádio do Maracanã
             </td>
         </tr><tr>
-            <td><a href="../games/11067452.md">São Paulo</a>
+            <td><a href="../games/11067452.md">Red Bull Bragantino</a>
             </td>
-            <td>Red Bull Bragantino
+            <td>Casa
             </td>
             <td>1 x 0
             </td>

@@ -7,6 +7,7 @@
 <div style="text-align: left; display: grid; grid-template-columns: 1fr 1fr;">
   <div>
     <h4>{{game.get("match").get("event").get("homeTeam").get("name")}}</h4>
+    <h5>Restrospecto: {{game.get("match").get("event").get("home_retrospecto")}}</h5>
     <table>
         <h5>TITULARES ({{game.get("match").get("lineups").get("home").get("formation")}})</h5>
         <th>
@@ -47,9 +48,9 @@
         Score
         </th>
         {% for player in game.get("match").get("lineups").get("home").get("players") %}{% if player.get("substitute") %}<tr>
-            <td><a href="./players/{{game.get("match").get("event").get("id")}}_{{player.get("player").get("id")}}.md">#{{player.get("shirtNumber")}}</a>
+            <td>#{{player.get("shirtNumber")}}
             </td>
-            <td>{{player.get("player").get("name")}}
+            <td><a href="../players/{{game.get("match").get("event").get("id")}}_{{player.get("player").get("id")}}.md">{{player.get("player").get("name")}}</a>
             </td>
             <td>{{player.get("player").get("position")}}
             </td>
@@ -60,6 +61,7 @@
 </div>
   <div>
     <h4>{{game.get("match").get("event").get("awayTeam").get("name")}}</h4>
+    <h5>Restrospecto: {{game.get("match").get("event").get("away_retrospecto")}}</h5>
     <table>
         <h5>TITULARES ({{game.get("match").get("lineups").get("away").get("formation")}})</h5>
         <th>
@@ -75,9 +77,9 @@
         Score
         </th>
         {% for player in game.get("match").get("lineups").get("away").get("players") %}{% if not player.get("substitute") %}<tr>
-            <td><a href="./players/{{game.get("match").get("event").get("id")}}_{{player.get("player").get("id")}}.md">#{{player.get("shirtNumber")}}</a>
+            <td>#{{player.get("shirtNumber")}}
             </td>
-            <td>{{player.get("player").get("name")}}
+            <td><a href="../players/{{game.get("match").get("event").get("id")}}_{{player.get("player").get("id")}}.md">{{player.get("player").get("name")}}</a>
             </td>
             <td>{{player.get("player").get("position")}}
             </td>
@@ -100,9 +102,9 @@
         Score
         </th>
         {% for player in game.get("match").get("lineups").get("away").get("players") %}{% if player.get("substitute") %}<tr>
-            <td><a href="./players/{{game.get("match").get("event").get("id")}}_{{player.get("player").get("id")}}.md">#{{player.get("shirtNumber")}}</a>
+            <td>#{{player.get("shirtNumber")}}
             </td>
-            <td>{{player.get("player").get("name")}}
+            <td><a href="../players/{{game.get("match").get("event").get("id")}}_{{player.get("player").get("id")}}.md">{{player.get("player").get("name")}}</a>
             </td>
             <td>{{player.get("player").get("position")}}
             </td>

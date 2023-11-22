@@ -1,4 +1,4 @@
-<h2 style="text-align: center;">Relatório de partida</h3>
+<h2 style="text-align: center;">Relatório do jogador</h3>
 
 <h3 style="text-align: center;">{{game.get("match").get("event").get("homeTeam").get("name")}} {{game.get("match").get("event").get("homeScore").get("display")}} x {{game.get("match").get("event").get("awayScore").get("display")}} {{game.get("match").get("event").get("awayTeam").get("name")}}</h3>
 

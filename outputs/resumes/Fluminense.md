@@ -7,10 +7,10 @@
     <table>
         <h5>ÚLTIMOS JOGOS</h5>
         <th>
-        Casa
+        Adversário
         </th>
         <th>
-        Fora
+        Lado
         </th>
         <th>
         Placar
@@ -24,7 +24,7 @@
         <tr>
             <td><a href="../games/11067443.md">Red Bull Bragantino</a>
             </td>
-            <td>Fluminense
+            <td>Fora
             </td>
             <td>1 x 0
             </td>
@@ -34,9 +34,9 @@
             <td>Estadio Nabi Abi Chedid
             </td>
         </tr><tr>
-            <td><a href="../games/11067459.md">Fluminense</a>
+            <td><a href="../games/11067459.md">Goiás</a>
             </td>
-            <td>Goiás
+            <td>Casa
             </td>
             <td>5 x 3
             </td>
@@ -48,7 +48,7 @@
         </tr><tr>
             <td><a href="../games/11067499.md">Atlético Mineiro</a>
             </td>
-            <td>Fluminense
+            <td>Fora
             </td>
             <td>2 x 0
             </td>
@@ -60,7 +60,7 @@
         </tr><tr>
             <td><a href="../games/11067343.md">Bahia</a>
             </td>
-            <td>Fluminense
+            <td>Fora
             </td>
             <td>1 x 0
             </td>
@@ -70,9 +70,9 @@
             <td>Arena Fonte Nova
             </td>
         </tr><tr>
-            <td><a href="../games/11067392.md">Fluminense</a>
+            <td><a href="../games/11067392.md">São Paulo</a>
             </td>
-            <td>São Paulo
+            <td>Casa
             </td>
             <td>None x None
             </td>
@@ -84,7 +84,7 @@
         </tr><tr>
             <td><a href="../games/11067484.md">Internacional</a>
             </td>
-            <td>Fluminense
+            <td>Fora
             </td>
             <td>0 x 0
             </td>

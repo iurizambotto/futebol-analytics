@@ -7,10 +7,10 @@
     <table>
         <h5>ÚLTIMOS JOGOS</h5>
         <th>
-        Casa
+        Adversário
         </th>
         <th>
-        Fora
+        Lado
         </th>
         <th>
         Placar
@@ -22,9 +22,9 @@
         Estádio
         </th>
         {% for game in new_events %}<tr>
-            <td><a href="../games/{{game.get("match").get("event").get("id")}}.md">{{game.get("match").get("event").get("homeTeam").get("name")}}</a>
+            <td><a href="../games/{{game.get("match").get("event").get("id")}}.md">{{game.get("adversario")}}</a>
             </td>
-            <td>{{game.get("match").get("event").get("awayTeam").get("name")}}
+            <td>{{game.get("lado")}}
             </td>
             <td>{{game.get("match").get("event").get("homeScore").get("display")}} x {{game.get("match").get("event").get("awayScore").get("display")}}
             </td>
